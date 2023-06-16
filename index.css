@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    font-family: "Leelawadee UI";
+    background-image: linear-gradient(#c7b6b6 20%, #d4ecd0 50%, #9fa2a0);
+}
+
+
+h1{
+    text-align: center;
+    margin: 50px;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+
+.div1{
+    background: rgba(150, 150, 150, 0.47);
+    text-align: center;
+    width: 550px;
+    margin: 20px;
+    height: 200px;
+    border: solid #595858 1.7px;
+    border-radius: 2%;
+    font-size: 35px;
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+}
+.bt{
+    background: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    width: 110px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 250px;
+    border-radius: 25%;
+    border: none;
+    transition: transform 0.5s;
+}
+.bt:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+.list{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.osn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
